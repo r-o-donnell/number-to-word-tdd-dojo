@@ -17,7 +17,7 @@ For simplicity, let's assume we have already extracted the numbers we want to ch
 
 **Assume all numbers are positive.**
 
-###Examples
+### Examples
 
 **1 digit**
 
@@ -35,7 +35,7 @@ For simplicity, let's assume we have already extracted the numbers we want to ch
 
 2000 = two thousand, 3466 = three thousand four hundred sixty-six, 2400 = two thousand four hundred
 
-###Bonus
+### Bonus
 
 Express your large numbers in the simplest way possible.
 Instead of 1300 being equal to one thousand three hundred it should return thirteen hundred, and instead of 5300, it should be fifty-three hundred.
