@@ -18,6 +18,7 @@ For simplicity, let's assume we have already extracted the numbers we want to ch
 **Assume all numbers are positive.**
 
 ###Examples
+
 **1 digit**
 
 0 = zero, 5 = five, 8 = eight
