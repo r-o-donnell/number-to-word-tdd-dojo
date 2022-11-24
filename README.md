@@ -7,7 +7,7 @@
 
 _"The OakNorth engineering team has 3 tribes and five squads. 26 is the current number of engineers, soon to be 28.
 1 part of the engineering team is in India and one part of the team is in the UK."_
-...
+
 
 Rosie has been inconsistent with her writing - she's got numbers as words in some places and numbers as numbers in others!
 Let's improve the text following these rules:
