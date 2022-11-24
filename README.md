@@ -1,3 +1,8 @@
+### Setup
+
+`yarn install` to setup
+`yarn test` to run tests
+
 ### Numbers to words
 
 _"The OakNorth engineering team has 3 tribes and five squads. 26 is the current number of engineers, soon to be 28.
