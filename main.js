@@ -1,5 +1,5 @@
 const number_to_string = () => {
-    return "number"
-}
+  return "number";
+};
 
-module.exports = number_to_string
+module.exports = number_to_string;
