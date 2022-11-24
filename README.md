@@ -43,4 +43,4 @@ Instead of 1300 being equal to one thousand three hundred it should return thirt
 
 
 
-_(Kata taken from http
+_(Kata taken from http://www.tddbuddy.com/)_
