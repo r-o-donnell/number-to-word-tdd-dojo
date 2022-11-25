@@ -15,4 +15,5 @@ describe("number to string", () => {
     const number = number_to_string(2);
     expect(number).toBe("two");
   });
+
 });

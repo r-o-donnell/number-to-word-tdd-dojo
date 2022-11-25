@@ -1,9 +1,7 @@
 const number_to_string = (number) => {
-  if (number == 1)
-    return "one";
-  else if (number == 2)
-    return "two";
-  return "zero";
+  digit_map = {0: "zero", 1: "one", 2: "two"}
+
+  return digit_map[number];
 };
 
 module.exports = number_to_string;
