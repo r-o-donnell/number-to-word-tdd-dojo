@@ -4,7 +4,7 @@ const number_to_string = (int) => {
   }
   const stringnumber = new String(int)
   if (stringnumber < 20){
-  return convertDigitToString(int);
+    return convertDigitToString(int);
   }
   else {
     result = ""
