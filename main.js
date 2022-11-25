@@ -3,14 +3,11 @@ const number_to_string = (int) => {
     return "Bad Request"
   }
   const stringnumber = new String(int)
-  if (stringnumber.length == 1){
+  if (stringnumber < 20){
   return convertDigitToString(int);
   }
   else {
     result = ""
-    if (stringnumber < 20){
-      return convertDigitToString(int);
-    }
     result += convertDigitToString(stringnumber[0]+"0")
     if (stringnumber[1] == 0){
       return result
