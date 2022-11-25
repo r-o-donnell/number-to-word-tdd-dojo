@@ -2,16 +2,31 @@ const number_to_string = (int) => {
   if (isInValidInput(int)) {
     return "Bad Request"
   }
+  const stringnumber = new String(int)
+  if (stringnumber.length == 1){
   return convertDigitToString(int);
-
+  }
+  else {
+    result = ""
+    if (stringnumber < 20){
+      return convertDigitToString(int);
+    }
+    result += convertDigitToString(stringnumber[0]+"0")
+    if (stringnumber[1] == 0){
+      return result
+    }
+    result += "-"
+    result += convertDigitToString(stringnumber[1])
+    return  result
+  }
 };
 
 const isInValidInput =(int) =>{
-  return typeof int !== "number";
+  return typeof int !== "number" || int > 9999 || int < 0;
 }
 
 const convertDigitToString = (digit) => {
-  const library = {
+  const nonConstructedNumbers = {
     0: "zero",
     1: "one",
     2: "two",
@@ -22,9 +37,12 @@ const convertDigitToString = (digit) => {
     // 7: "seven",
     // 8: "eight",
     // 9: "nine",
+    11: "eleven",
+    19: "nineteen",
+    20: "twenty"
   }
 
-  return library[digit];
+  return nonConstructedNumbers[digit];
 }
 
 module.exports = number_to_string;
