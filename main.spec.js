@@ -104,11 +104,6 @@ describe("input number two digits 20 or over", () => {
     const number = number_to_string(21);
     expect(number).toBe("twenty-one");
   });
-
-  //  it("returns twenty-five if pass in 25", () => {
-  //    const number = number_to_string(25);
-  //    expect(number).toBe("twenty-five");
-  //  });
 });
 
 describe("input number two digits 30 or over", () => {
@@ -116,7 +111,13 @@ describe("input number two digits 30 or over", () => {
     const number = number_to_string(30);
     expect(number).toBe("thirty");
   });
+})
 
+describe("input number two digits 40 or over", () => {
+  it("returns fourty if pass in 40", () => {
+    const number = number_to_string(40);
+    expect(number).toBe("fourty");
+  });
 })
 
 describe("input validation", () => {  
