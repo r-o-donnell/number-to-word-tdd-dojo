@@ -59,6 +59,34 @@ describe("input numbers with less than 20", () => {
     const number = number_to_string(11);
     expect(number).toBe("eleven");
   });
+  it("returns twelve if pass in 12", () => {
+    const number = number_to_string(12);
+    expect(number).toBe("twelve");
+  });
+  it("returns thirteen if pass in 13", () => {
+    const number = number_to_string(13);
+    expect(number).toBe("thirteen");
+  });
+  it("returns fourteen if pass in 14", () => {
+    const number = number_to_string(14);
+    expect(number).toBe("fourteen");
+  });
+  it("returns fifteen if pass in 15", () => {
+    const number = number_to_string(15);
+    expect(number).toBe("fifteen");
+  });
+  it("returns sixteen if pass in 16", () => {
+    const number = number_to_string(16);
+    expect(number).toBe("sixteen");
+  });
+  it("returns seventeen if pass in 17", () => {
+    const number = number_to_string(17);
+    expect(number).toBe("seventeen");
+  });
+  it("returns eighteen if pass in 18", () => {
+    const number = number_to_string(18);
+    expect(number).toBe("eighteen");
+  });
 
   it("returns nineteen if pass in 19", () => {
     const number = number_to_string(19);
