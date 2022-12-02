@@ -142,7 +142,7 @@ describe("two-digit constructed numbers", () => {
   });
 });
 
-describe("three-digit constructed numbers", () => {
+describe("three-digit numbers", () => {
   it("returns one-hundred if pass in 100", () => {
     const number = number_to_string(100);
     expect(number).toBe("one-hundred");
