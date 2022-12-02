@@ -23,7 +23,7 @@ const isInValidInput =(int) =>{
 }
 
 const convertDigitToString = (digit) => {
-  const nonConstructedNumbers = {
+  const baseNumbers = {
     0: "zero",
     1: "one",
     2: "two",
@@ -39,7 +39,7 @@ const convertDigitToString = (digit) => {
     20: "twenty"
   }
 
-  return nonConstructedNumbers[digit];
+  return baseNumbers[digit];
 }
 
 module.exports = number_to_string;
