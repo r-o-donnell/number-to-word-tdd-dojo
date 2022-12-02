@@ -5,8 +5,9 @@ const number_to_string = (int) => {
   const stringnumber = new String(int)
   if (stringnumber < 20){
     return baseNumbers[int];
-  }
-  else {
+  }else if(stringnumber > 99){
+    return "one-hundred"
+  }else {
     result = ""
     result += baseNumbers[stringnumber[0]+"0"]
     if (stringnumber[1] == 0){

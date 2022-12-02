@@ -133,10 +133,19 @@ describe("two-digit non-constructed numbers", () => {
 });
 
 
+
+
 describe("two-digit constructed numbers", () => {
   it("returns twenty-one if pass in 21", () => {
     const number = number_to_string(21);
     expect(number).toBe("twenty-one");
+  });
+});
+
+describe("three-digit constructed numbers", () => {
+  it("returns one-hundred if pass in 100", () => {
+    const number = number_to_string(100);
+    expect(number).toBe("one-hundred");
   });
 });
 
