@@ -111,6 +111,14 @@ describe("input number two digits 20 or over", () => {
   //  });
 });
 
+describe("input number two digits 30 or over", () => {
+  it("returns thirty if pass in 30", () => {
+    const number = number_to_string(30);
+    expect(number).toBe("thirty");
+  });
+
+})
+
 describe("input validation", () => {  
   it("returns bad request for string inputs", () => {
     const number = number_to_string("#");
