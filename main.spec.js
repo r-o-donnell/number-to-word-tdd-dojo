@@ -47,10 +47,14 @@ describe("input numbers with one digit", () => {
     const number = number_to_string(9);
     expect(number).toBe("nine");
   })
-
 });
 
 describe("input numbers with less than 20", () => {
+  it("returns ten if pass in 10", () => {
+    const number = number_to_string(10);
+    expect(number).toBe("ten");
+  });
+
   it("returns eleven if pass in 11", () => {
     const number = number_to_string(11);
     expect(number).toBe("eleven");
