@@ -6,7 +6,10 @@ const number_to_string = (int) => {
   if (stringnumber < 20){
     return baseNumbers[int];
   }else if(stringnumber > 99){
-    return "one-hundred"
+    result = ""
+    result += baseNumbers[stringnumber[0]]
+    result += "-hundred"
+    return result
   }else {
     result = ""
     result += baseNumbers[stringnumber[0]+"0"]

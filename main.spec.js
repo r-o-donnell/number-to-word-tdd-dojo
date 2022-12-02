@@ -147,6 +147,10 @@ describe("three-digit constructed numbers", () => {
     const number = number_to_string(100);
     expect(number).toBe("one-hundred");
   });
+  it("returns two-hundred if pass in 200", () => {
+    const number = number_to_string(200);
+    expect(number).toBe("two-hundred");
+  });
 });
 
 
