@@ -94,38 +94,35 @@ describe("input numbers with less than 20", () => {
   });
 });
 
-describe("input number two digits 20 or over", () => {
+describe("two-digit non-constructed numbers", () => {
   it("returns twenty if pass in 20", () => {
     const number = number_to_string(20);
     expect(number).toBe("twenty");
   });
+  it("returns thirty if pass in 30", () => {
+    const number = number_to_string(30);
+    expect(number).toBe("thirty");
+  });
+  it("returns fourty if pass in 40", () => {
+    const number = number_to_string(40);
+    expect(number).toBe("fourty");
+  });
+  it("returns fifty if pass in 50", () => {
+    const number = number_to_string(50);
+    expect(number).toBe("fifty");
+  });
+});
 
+
+describe("two-digit constructed numbers", () => {
   it("returns twenty-one if pass in 21", () => {
     const number = number_to_string(21);
     expect(number).toBe("twenty-one");
   });
 });
 
-describe("input number two digits 30 or over", () => {
-  it("returns thirty if pass in 30", () => {
-    const number = number_to_string(30);
-    expect(number).toBe("thirty");
-  });
-})
 
-describe("input number two digits 40 or over", () => {
-  it("returns fourty if pass in 40", () => {
-    const number = number_to_string(40);
-    expect(number).toBe("fourty");
-  });
-})
 
-describe("input number two digits 50 or over", () => {
-  it("returns fifty if pass in 50", () => {
-    const number = number_to_string(50);
-    expect(number).toBe("fifty");
-  });
-})
 
 describe("input validation", () => {  
   it("returns bad request for string inputs", () => {
