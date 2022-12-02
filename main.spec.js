@@ -111,6 +111,25 @@ describe("two-digit non-constructed numbers", () => {
     const number = number_to_string(50);
     expect(number).toBe("fifty");
   });
+
+  it("returns sixty if pass in 60", () => {
+    const number = number_to_string(60);
+    expect(number).toBe("sixty");
+  });
+
+  it("returns seventy if pass in 70", () => {
+    const number = number_to_string(70);
+    expect(number).toBe("seventy");
+  });
+  it("returns eighty if pass in 80", () => {
+    const number = number_to_string(80);
+    expect(number).toBe("eighty");
+  });
+
+  it("returns ninety if pass in 90", () => {
+    const number = number_to_string(90);
+    expect(number).toBe("ninety");
+  });
 });
 
 
