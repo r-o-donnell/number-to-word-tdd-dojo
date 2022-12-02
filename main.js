@@ -47,6 +47,7 @@ const convertDigitToString = (digit) => {
     20: "twenty",
     30: "thirty",
     40: "fourty",
+    50: "fifty"
   }
 
   return baseNumbers[digit];

@@ -120,6 +120,13 @@ describe("input number two digits 40 or over", () => {
   });
 })
 
+describe("input number two digits 50 or over", () => {
+  it("returns fifty if pass in 50", () => {
+    const number = number_to_string(50);
+    expect(number).toBe("fifty");
+  });
+})
+
 describe("input validation", () => {  
   it("returns bad request for string inputs", () => {
     const number = number_to_string("#");
