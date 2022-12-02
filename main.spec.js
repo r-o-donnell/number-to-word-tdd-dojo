@@ -12,6 +12,42 @@ describe("input numbers with one digit", () => {
     const number = number_to_string(2);
     expect(number).toBe("two");
   })
+
+  it("returns three if pass in 3", () => {
+    const number = number_to_string(3);
+    expect(number).toBe("three");
+  })
+
+  it("returns four if pass in 4", () => {
+    const number = number_to_string(4);
+    expect(number).toBe("four");
+  })
+
+  it("returns five if pass in 5", () => {
+    const number = number_to_string(5);
+    expect(number).toBe("five");
+  })
+
+  it("returns six if pass in 6", () => {
+    const number = number_to_string(6);
+    expect(number).toBe("six");
+  })
+
+  it("returns seven if pass in 7", () => {
+    const number = number_to_string(7);
+    expect(number).toBe("seven");
+  })
+
+  it("returns eight if pass in 8", () => {
+    const number = number_to_string(8);
+    expect(number).toBe("eight");
+  })
+
+  it("returns nine if pass in 9", () => {
+    const number = number_to_string(9);
+    expect(number).toBe("nine");
+  })
+
 });
 
 describe("input numbers with less than 20", () => {
@@ -36,6 +72,11 @@ describe("input number two digits 20 or over", () => {
     const number = number_to_string(21);
     expect(number).toBe("twenty-one");
   });
+
+  //  it("returns twenty-five if pass in 25", () => {
+  //    const number = number_to_string(25);
+  //    expect(number).toBe("twenty-five");
+  //  });
 });
 
 describe("input validation", () => {  
